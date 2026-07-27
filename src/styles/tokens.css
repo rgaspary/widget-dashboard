@@ -1,0 +1,27 @@
+/*
+ * Design tokens sourced from the "Organic" design system used to prototype
+ * this dashboard (Claude Design). Font/radius tokens are shared across all
+ * three in-app themes (Minimal / Glass / Organic); color tokens back the
+ * Organic theme specifically — Minimal and Glass supply their own palettes
+ * in src/theme.js.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo:wght@400&family=Figtree:wght@400;600;700&display=swap');
+
+:root {
+  --color-bg: #f5ead8;
+  --color-text: #201e1d;
+  --color-accent: #c67139;
+
+  --color-neutral-100: #f9f4ed;
+  --color-neutral-200: #eee7db;
+  --color-neutral-700: #645c50;
+
+  --color-accent-100: #fff2eb;
+  --color-accent-200: #ffe1d0;
+
+  --font-heading: 'Caprasimo', system-ui, sans-serif;
+  --font-heading-weight: 400;
+  --font-body: 'Figtree', system-ui, sans-serif;
+
+  --radius-lg: 28px;
+}

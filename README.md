@@ -1,5 +1,7 @@
 # Widget Dashboard
 
+[![Latest release](https://img.shields.io/github/v/release/rgaspary/widget-dashboard)](https://github.com/rgaspary/widget-dashboard/releases/latest)
+
 A personal start-page / new-tab dashboard: a draggable grid of small
 widgets — links, search, weather, clock, to-dos, calendar, notes, and a
 photo — with three switchable visual themes and light/dark mode. Everything
@@ -106,6 +108,16 @@ docker compose up -d --build
 
 Either way, the app is served at **http://localhost:8080**. Change the
 host port by editing the `ports` mapping in `docker-compose.yml`.
+
+## Releases
+
+The [latest release](https://github.com/rgaspary/widget-dashboard/releases/latest)
+includes a pre-built `dist/` package (static HTML/CSS/JS) as a downloadable
+asset — drop it on any static host without running a build step yourself.
+
+| Version | Notes |
+| --- | --- |
+| [v0.1.0](https://github.com/rgaspary/widget-dashboard/releases/tag/v0.1.0) | Initial release. |
 
 ## License
 
